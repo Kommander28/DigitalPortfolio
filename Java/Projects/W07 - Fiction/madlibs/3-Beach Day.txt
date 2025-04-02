@@ -1,0 +1,13 @@
+I went to the beach in 
+{PLACE} today with 
+{PERSONS NAME}. We had a 
+{ADJECTIVE} time. We first built a 
+{NOUN} and then we ran around in the 
+{NOUN} for a little while. The water was a bit 
+{ADJECTIVE}. The sun was very 
+{ADJECTIVE} so we made sure to wear a lot of 
+{NOUN}. We spent 
+{NUMBER} hours there. At the end of the day, we treated ourselves to a 
+{NOUN} and had 
+{FOOD} for dinner. I definitely want to go to the beach again but next time I want to 
+{VERB}.

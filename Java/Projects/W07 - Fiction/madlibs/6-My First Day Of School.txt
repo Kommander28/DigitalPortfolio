@@ -1,0 +1,15 @@
+Today was my first day of 
+{NUMBER 1-8} grade. My teacher is Ms. 
+{FEMALE NAME}. She seems 
+{ADJECTIVE} and 
+{ADJECTIVE}. I think her class will be pretty 
+{ADJECTIVE}. My friends 
+{NOUN} and 
+{NOUN} are also in my class. We messed around during class by hiding 
+{NOUN} in peoples' 
+{PLURAL NOUN} and asking questions about 
+{NOUN}. The teacher got really 
+{ADJECTIVE} at us and told us that we have to go to the 
+{NOUN}. This just made us 
+{VERB} more. It was a 
+{ADJECTIVE} first day of school!

@@ -1,0 +1,17 @@
+In order to do your laundry, first you have to 
+{VERB} your clothes. Then you have 
+{VERB} the 
+{NOUN} machine. Take your time not to 
+{VERB} any items that may be gross. Separate your 
+{PLURAL NOUN} from your 
+{PLURAL NOUN} and then load the 
+{NOUN} machine. Make sure not to mix the 
+{COLOR PLURAL} with the 
+{COLOR PLURAL}. Set temperature to 
+{WHOLE NUMBER} and begin the cycle. After that is finished, 
+{VERB} your clothes and 
+{VERB} them in the dryer. Set the temperature and 
+{VERB} the dryer. After about 
+{NUMBER} minutes, it should be complete! Now all you have to do is 
+{VERB} your clothes and you are all set! 
+{ADJECTIVE} laundry!

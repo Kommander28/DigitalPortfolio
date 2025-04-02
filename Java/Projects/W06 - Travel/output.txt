@@ -1,0 +1,87 @@
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+This program calculates the cost and the time to travel to your destination 
+ given the needed information for both gas car and the electric car.
+Just answer some simple questions
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+How many times do you want to use the app: 3
+
+Traveling with a gas car
+
+Enter the total number of the miles you are traveling: 2000
+Enter the speed of your car: 70
+Enter the miles per gallon: 17
+Enter the cost per gallon: 4.59
+
+Traveingl with your gas car: 
+Hours   28.571428571428573
+Cost    540.0
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Traveling with an electric car
+
+Enter the total number of the miles you are traveling: 2000
+Enter the speed of your car: 70
+Enter the number of the miles that you can travel with a fully charged battery: 100
+Enter the number of the hours it takes to charge your car: 2
+Enter the amount money you need each time to fully charge the battery of your car: 12
+
+Traveling with your electric car
+
+Hours of travel 68.57142857142857
+Charge cost 240.0
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Traveling with a gas car
+
+Enter the total number of the miles you are traveling: 1000
+Enter the speed of your car: 67
+Enter the miles per gallon: 21
+Enter the cost per gallon: 6
+
+Traveingl with your gas car: 
+Hours   14.925373134328359
+Cost    285.7142857142857
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Traveling with an electric car
+
+Enter the total number of the miles you are traveling: 1000
+Enter the speed of your car: 67
+Enter the number of the miles that you can travel with a fully charged battery: 70
+Enter the number of the hours it takes to charge your car: 3
+Enter the amount money you need each time to fully charge the battery of your car: 15
+
+Traveling with your electric car
+
+Hours of travel 56.92537313432836
+Charge cost 210.0
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Traveling with a gas car
+
+Enter the total number of the miles you are traveling: 700
+Enter the speed of your car: 70
+Enter the miles per gallon: 19
+Enter the cost per gallon: 6.6
+
+Traveingl with your gas car: 
+Hours   10.0
+Cost    243.1578947368421
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Traveling with an electric car
+
+Enter the total number of the miles you are traveling: 700
+Enter the speed of your car: 65
+Enter the number of the miles that you can travel with a fully charged battery: 100
+Enter the number of the hours it takes to charge your car: 2
+Enter the amount money you need each time to fully charge the battery of your car: 15
+
+Traveling with your electric car
+
+Hours of travel 24.76923076923077
+Charge cost 105.0
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+GOOD BYE
+
+ ----jGRASP: operation complete.

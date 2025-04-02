@@ -1,0 +1,73 @@
+/*
+Name:
+Date
+program description
+self grade: 
+Testimonial: I have written the code and did not get help ffrom unauthorized resources: your name______________
+
+6. Do not remove any comments that are given
+*/
+
+import java.util.*;
+public class FictionYourLastName//<----- change this name to include your last name, then save the file with the new name
+{
+    //no code goes here
+}
+class Fiction{
+  
+   public static void main(String[] args)
+   {
+      Scanner kb = new Scanner(System.in);
+      //propmt the user to ask how many stories they want to create
+      
+      //get the user's input
+      
+      //flush the buffer
+      
+       
+      for( ; ;)
+      {
+       //call the method createStroy. Make sure to store the return into a variable
+       //display the story
+       //call the method reverse by passing proper paramter
+       
+       //call the extra feature method you created
+       
+         
+      
+      }
+   
+   }
+  /*
+  This method creates the story by asking questions. Refer to the provided sample program to learn how to
+  make the story. This method does not print the story. Printing the story in this method will loose 40 points
+  refer to the sample code
+  */
+   public static String createStory(Scanner kb)
+   {
+      //display a message that the user will make up a story
+      
+      //ask the required questions to create the story
+   
+      return "";   // <---- must change this line to return the actual story
+   }
+        
+   /*create a method that accepts a String and displays the string in the reverse order.
+   This method will be called to display the story that you made in the above method in the reverse order.
+   Must use a for loop and charAt method from the string class.  
+   The story must be displayed in multiple lines and not just one line
+   refer to the sample code   
+   */ 
+   public static String reverse(String story)
+   {
+         
+      return "";   //<--- must return the reverse story
+   
+   } 
+   /*(25 points)Extra method: this method must do something with the story you created. You can use any methods
+   from the String class, Math class. This method must have at least five lines of code
+   This method must be creative. 
+   Printing the story on the screen is not accepted as an extra feature*/  
+   
+    
+}

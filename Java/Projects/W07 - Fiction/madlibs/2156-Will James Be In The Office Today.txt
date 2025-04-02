@@ -1,0 +1,3 @@
+{ADJECTIVE} news! James won't be at the office today. Would you believe it's because he has to 
+{VERB} his 
+{NOUN}?

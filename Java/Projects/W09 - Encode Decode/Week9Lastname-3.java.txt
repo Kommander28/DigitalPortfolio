@@ -1,0 +1,211 @@
+/*
+ * 
+ * 
+ * This program performs a decode/encode algorithm  which is a shift of characters in
+ * a message by a gven shift key.  It allows our message to pass along  in the form of a secret message. 
+ The user's input can only containg letters a-z and A-Z and space.
+ Any message containg any other letters are considered invalid *
+   
+ * The program serves as an example of Strings and the type char.
+ 
+ Any submissions from previous semesters will get zero points
+ * 
+ * Name:
+ Date:
+ Self grade: 
+ testimony: All the code is written by myself and I did not get any help from unauthorized resources Name:  
+ */
+
+import java.util.*;
+public class Week9Lastname  // change the name to include your last name
+{
+  //DO NOT DELETE THIS CLASS
+   //no code
+}
+
+class EncodeDecode {
+   public static void main(String[] args) {
+      
+      Scanner console = new Scanner(System.in);
+      System.out.print("How many times to you want to use the app: ");      
+      int count = console.nextInt();
+      console.nextLine();
+      for(int i = 1; i <= count; i++)
+      {
+         //call the method menu 
+         menu();
+         //prompt the user to get their choice
+         System.out.print("Enter your choice: ");
+         //declare a String variable and use the scnner next method to get the choice
+         String choice = console.next();
+         //flush the buffer
+         console.nextLine();
+         
+         //print a message to get the user's input
+         
+         //declare a variable to get the user's input
+         
+         //if the choice is "E"  : this line must be modified based on the menu you created
+         
+         {
+            
+            
+           // call the method encode and store the result in a variable called encoded
+             
+           // display the encoded message
+             
+         }
+         //else if the choice is D  // this line must be modified based on the menu you created
+         {
+               
+            //call the method decode and store the result in a vaiable called decode
+            
+            //display the decoded message
+             
+         
+         } 
+         //else
+            // display invalid choice
+               
+      }
+   }
+   /*This method displays a menu so that the user can chose between decode and encode
+   Make sure that this menu is different than what is given in the output*/ 
+   public static void menu()
+   {
+       
+   }
+
+	/*
+	 * Returns a new string with the letters of the given string shifted
+	 * forward or backward based on the key. For example
+      if the string is "my password" then the key is Math.abs(the ascci code of the letter m - the ascii code of the letter 'd').
+      if the first and the last letter of the message are the same then the key will be zero. In this case another 
+      method must be used to select the key.  You must choose a crative criteria. You cannot select a number for the key
+      It has to be based on the letters in the given string. Must be a acreative way of generating the key. 
+     * Make sure to have the provided bracktes at the exact same place otherwise your code will not
+     work properly
+	 */
+   public static String encode(String message ) {
+      String encoded = "";
+      //declare an int called key and set it the message length * 2
+      
+      //if the calculated key is greater tha 26 , set the key to message.length() * 2 % 10
+        
+      //convert the message to uppercase by using methods from the String class   
+      
+      //create a for loop 0 to the last letter in the string
+      {
+         //declare a char vaiable called 'c' and set it to the letter at index i buy using charAt
+         
+         
+         //if c is not a letter A-Z and is not a space
+         {
+              //display a message invalid input
+              //return;   Must uncommnet thsi line
+         }
+          
+         //if c == ' ' set c to ':'
+         {
+           // c= ':';
+           //continue;  // will start a new iteration of the loop, must uncomment
+         }
+         
+          
+         
+        //if c is between A and Z  
+         {
+            // set c = c + key
+            //if c > 'Z'
+            {
+              // subtract 26 from c 
+            }
+           // else if (c <'A')
+            {
+              //add 26 to c
+            }
+         }               	  	 
+      
+         //add c to the encoded: encoded += c
+      }   
+      String back ="";
+     // call the method backward and pass encoded variable  to it, store the result in a varible called back	, 
+      return back;
+   }
+   /*
+	 * Decodes the encrypted string using a key.
+      The key must be caluclated the same way as in the decode method. 
+        	 */
+
+   public static String decode(String message) {
+   
+      String decoded = "";
+      
+        
+      
+      //declare an int called key and set it the message length * 2
+      
+      //if the calculated key is greater tha 26 , set the key to message.length() * 2 % 10
+      
+     //call the method backward and pass the variable message to it. store the result back in the variable message
+     
+      //convert the message to all upper case using the method from the String class 
+      
+      //for( 0 to last index of the message)
+      {
+        //declare a variable called c of type char, 
+        
+        //store tha character at index in the variable c
+        
+       // if c is not a letter A-Z and is not : 
+        {
+            //display a message invalid input
+            //return null; //must uncommnet
+        }
+        // if  c >='A' and c <= 'Z'
+         {
+           //sunbtract key from c:  c = c- key
+           //if c < 'A'
+            {
+             //find the difference between 'a' and c by using: int diff=  'a' - c
+             //set c to ('Z' - diff + 1). the content of the () must be type casted to char before storing it in c
+            }
+            //else if  c > 'Z'
+            {
+              //find the int diff = 'Z' - c  and store it in a varibale
+              //set c = (char)('A'+ diff + 1);
+            }         
+            
+                          
+         }
+         //add c to the decoded string : decoded = decoded + c
+      }
+   	
+      return decoded;
+   }
+   /*
+   This method gets a String and create a new string in the backward order. For example if hello is passed to it
+   it will return olleh
+   
+   This method must be called in the decode and encode methods
+   */
+   public static String backward(String s)
+   {
+   
+     return "";
+   }
+   
+   /*
+   15 points
+   This method encodes a message using the algorithm of your choice.
+   Be crative, This method cannot conatin only prin/println
+   must use a for loop to process each letter in the string s
+   
+   
+   */
+   public static String encode2(String s)
+   {
+      return "";
+   }
+
+}

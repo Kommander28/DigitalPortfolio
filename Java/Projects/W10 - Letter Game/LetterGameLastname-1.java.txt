@@ -1,0 +1,200 @@
+ /*
+ Name:
+ Description
+ Date: 
+ self-grade
+ Testimony: The submitted program is written by me and I have not received any help from unauthorzied resources. 
+ 
+ The extra methods has 30 points. Make sure that you follow the same directions given in the similar method. 
+ 
+ */
+
+import java.util.*;
+public class LetterGameLastname // change the name to include your last name
+{
+   //no code here
+}
+
+class LetterGame{
+    
+   
+   public static void main(String[] args) {
+      Scanner console = new Scanner(System.in);   
+      introduction();  
+      funGame(console);
+   }
+   public static void funGame(Scanner console)
+   {  
+        
+      int numGames = 0;   //total number of the games the user played
+      int totGuesses = 0;  //total guesses made by the user in all the games played
+      int max = 0;   //hold the maximum number of guesses in each game
+        
+        //declare a string varibale and initialized to "YES"
+      String again = "YES";
+         
+      //while loop to keep playing different games 
+      {       
+       
+        //while again is equals to "YES  
+         {
+            int guesses = 0;
+            System.out.print("Do you want to guess numbers or letters. Enter letter or number? ");
+            String choice = console.next();
+            if (choice.equalsIgnoreCase("letter"))
+            {
+             
+               guesses = letterGuess(console);  //starts the letter game
+            }
+            else if (choice.equalsIgnoreCase("number"))
+            {
+               guesses = numberGuess(console);  // starts the number game
+            }      
+         
+            //call the method playGame and store the result in an int varibale called guesses
+            
+            //if guesses is greater than max
+            {
+                 //set max to guesses
+                 
+            }     
+            //set totGuesses = totGuesses + guesses
+           
+            //increment numGames
+            
+          
+           //call the method playAgain and store the result in the variable again
+           
+            
+            
+            System.out.println();
+         }//end while loop
+      } //end while loop    
+        
+   }
+    /*
+    This method ask the user to enter YES or NO answer until the user enters the correct answer
+    
+    */
+   public static String playAgain(Scanner kb)
+   {
+      System.out.print("Do you want to play again(YES/NO)? ");
+        
+        //1. declare a variable of type String and store the user's respond
+        
+        //while the user's respond is not YES and the user's respond is not NO
+      {
+        
+        
+         System.out.print("Do you want to play again? YES/NO");
+            
+            //read the user's respond and store it in the variable you declared in step 1 
+             
+      
+      }
+        //return use's respond
+      return "";  //must modify this line
+   }
+    
+    
+    /*This method described the game being played.
+    Cretae your own description and not the provided description*/  
+   public static void introduction() {
+     
+     //your code
+   }
+/*
+  This method will generated a random letter between A and Z and asks the user to make the guess.
+  Must keep track of the number of the guesses that the user made.
+  
+
+*/ 
+   public static int letterGuess(Scanner console) {
+       //create a Random object
+      Random r = new Random();
+        
+        //declare a variable of type int called min and set it to the ascci code for the letter 'A'
+         
+        
+        //declare an int variable called max and set it to the ascci code of the letter 'Z'
+        
+        
+       // decare a variable of type int called num and generate a randon number between min and max and store it in num
+         
+        
+        //declare a variable of type char called pick and store (char)num in it
+        
+      
+      char guess =' ';    // holds the user's guess
+      int numGuesses = 0;   //holds the total guesses the user made in one round of the game
+      boolean done = false;  //signals the end of the loop, meaning the user made the correct guess
+      System.out.println("I am randomly picking a letter between A and Z and you need to guess it.");
+      //while (!done)
+      while (!done) {
+        //increment numGuesses
+          
+         //call the method userRespond and store the result in the variable guess
+          
+            
+         //if guess is equal to pick
+         {
+             //set done to true
+             //display a message "You got it"
+         } 
+         //else if guess is less  than pick
+         {
+            //display higher
+         } 
+        // else
+         {
+           //display lower
+         } 
+      }
+      System.out.println("You got it right in " + numGuesses + " guesses");
+      System.out.println();
+      return numGuesses;
+   }
+   /* method must be implemented by you. The code is similar to the letterGuess
+   method. Must use the same logic and formating*/
+   public static int numberGuess(Scanner console)
+   {
+      return 0;
+   }
+   /*
+   This method gets the user's respond. The user must enter a letter between 'A' and 'Z'
+   the method will keep asking until the user enters a valid input between 'A' and Z
+   a while loop must be used.
+   */
+   public static char userRespondLetter(Scanner kb)
+   {
+      System.out.print("Guess a leeter between A-Z:  ");
+      //1. declare a variable of type String and get the user's input
+      
+      //2.declare a variable of type char called guess and store the first letter of the user's respond in it. must use charAt() method
+      
+      //while the length of the user's guess is not equal to 1 or the first letter of user's guess is less than 'A' or guess is > 'Z'
+      
+      {
+        //prompt the user
+       //reset the varibale guess to the new respond
+       // reset the variable of the first letter of the user's respond
+         
+      
+      }
+      //return the varibale guess
+      return ' ';  //modify this line to return the varibale guess
+   
+   }
+   /*
+   This method asks the user to enter a number between the min and max
+   as long as the input is not between min and max, keep asking the user 
+   to enter a valid input. This is similar to the userRespondLetter.
+   refer to the sample output and for the prompts. This method must be created by you and must generated 
+   a very similar output. 
+   
+   */
+   public static char userRespondNumber(int min, int max, Scanner kb)
+   {
+      return 0;
+   }
+}

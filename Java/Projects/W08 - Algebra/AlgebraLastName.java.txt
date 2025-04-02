@@ -1,0 +1,74 @@
+import java.util.Scanner;
+/*
+name
+date
+program description
+self grade
+Testimony: I did all the code by myself and did not get help from unothourized resources : ___________
+Make sure to follow all the requirmnets including the method names and parameters
+ by reading the documnet first. Every single requirmnet has points.
+*/
+public class AlgebraLastName
+{
+   //no code goes here
+}
+class Operations
+{
+   public static void main(String[] args)
+   {
+      start();
+   }
+   /* This must be the last method to implement
+   After you have implemented all the methods*/
+   public static void start()
+   {
+      Scanner kb = new Scanner(System.in);
+      System.out.print("How many expressions do you have: ");
+      int count = kb.nextInt();
+      for(int i = 1; i <= count; i++)
+      {  
+      
+          //your code, refeer to the word document         
+      }
+   }
+   /*This method gets the opration and returns the name of the operation in words. for example
+   if the operation is * , it should return multiply.
+   must if/else statement  */
+   public static String OpToWord(String operator)
+   {
+         // your code
+          
+      return "";
+   }
+   
+   /* This method gets a number 1-9 and returns it in  words.
+   for example if the num is 1 it shuld return one
+   Must  use if statemnets otherwise no credit will be given  */
+    
+   public static String numToWord(int a)
+   {       
+     // your code
+      return "";
+   }
+   /*
+   this method gets two numbers and the operation and returns the result of the expression.
+   for example if this method gets 3, 2 and * , then the method should return 6
+   Must use switch cases otherwise no credit will be given 
+   */
+   public static double evaluate(double a, double b, String op)
+   {
+      //your code          
+      return 0;   //must change              
+   }
+   /*This method list all the operations that the user can choose from. 
+   You must create your own menu and  not to use the menu that I provided in the sample output
+   be creative and provide a user freindly menu.
+   providing the exact same menu as the sample output, will not get credit  
+   */
+   public static void list()
+   {
+     // your code
+     System.out.println("To do * enter 1: "); // you can use this way of creating the menu
+          
+   }
+}

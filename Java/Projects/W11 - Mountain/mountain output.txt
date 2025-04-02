@@ -1,0 +1,96 @@
+************************************************************
+You are about to climb a mountain.
+You will be asked to enter the height of the mountain
+You might slip down as you are climbing up.
+************************************************************
+What is the height of the mountain: 34
+heights cannot exceed 30. Try again
+What is the height of the mountain: -23
+Negative height is not accepted. Try again
+What is the height of the mountain: 15
+You are about to climb a mountain with the height 15. Get set, ready go!
+You climbed up 4 steps
+You are 11 steps away to reach the top of the mountain
+Sorry you slipped down 2 step(s)
+You are 13 steps away to reach the top of the mountain
+You climbed up 2 steps
+You are 11 steps away to reach the top of the mountain
+Sorry you slipped down 2 step(s)
+You are 13 steps away to reach the top of the mountain
+Sorry you slipped down 1 step(s)
+You are 14 steps away to reach the top of the mountain
+You climbed up 3 steps
+You are 11 steps away to reach the top of the mountain
+You climbed up 1 steps
+You are 10 steps away to reach the top of the mountain
+You climbed up 1 steps
+You are 9 steps away to reach the top of the mountain
+Sorry you slipped down 3 step(s)
+You are 12 steps away to reach the top of the mountain
+You climbed up 3 steps
+You are 9 steps away to reach the top of the mountain
+You climbed up 2 steps
+You are 7 steps away to reach the top of the mountain
+Sorry you slipped down 1 step(s)
+You are 8 steps away to reach the top of the mountain
+You climbed up 1 steps
+You are 7 steps away to reach the top of the mountain
+You climbed up 1 steps
+You are 6 steps away to reach the top of the mountain
+You climbed up 1 steps
+You are 5 steps away to reach the top of the mountain
+Sorry you slipped down 4 step(s)
+You are 9 steps away to reach the top of the mountain
+You climbed up 5 steps
+You are 4 steps away to reach the top of the mountain
+You climbed up 4 steps
+*************CONGRATULATIONS****************
+You reached the top of the mountain!
+While clinmbing you sliped 13 times.
+*********************************************
+
+Do you have the energy to climb up another mountain. YES/NO? sdd
+Do you have the energy to climb up another mountain. YES/NO? ret
+Do you have the energy to climb up another mountain. YES/NO? yes
+What is the height of the mountain: 55
+heights cannot exceed 30. Try again
+What is the height of the mountain: -12
+Negative height is not accepted. Try again
+What is the height of the mountain: 18
+You are about to climb a mountain with the height 18. Get set, ready go!
+You climbed up 1 steps
+You are 17 steps away to reach the top of the mountain
+You climbed up 4 steps
+You are 13 steps away to reach the top of the mountain
+You climbed up 5 steps
+You are 8 steps away to reach the top of the mountain
+Sorry you slipped down 3 step(s)
+You are 11 steps away to reach the top of the mountain
+Sorry you slipped down 3 step(s)
+You are 14 steps away to reach the top of the mountain
+Sorry you slipped down 4 step(s)
+You are 18 steps away to reach the top of the mountain
+You climbed up 5 steps
+You are 13 steps away to reach the top of the mountain
+You climbed up 1 steps
+You are 12 steps away to reach the top of the mountain
+You climbed up 2 steps
+You are 10 steps away to reach the top of the mountain
+Sorry you slipped down 1 step(s)
+You are 11 steps away to reach the top of the mountain
+You climbed up 5 steps
+You are 6 steps away to reach the top of the mountain
+You climbed up 4 steps
+You are 2 steps away to reach the top of the mountain
+You climbed up 1 steps
+You are 1 steps away to reach the top of the mountain
+Sorry you slipped down 1 step(s)
+You are 2 steps away to reach the top of the mountain
+You climbed up 2 steps
+*************CONGRATULATIONS****************
+You reached the top of the mountain!
+While clinmbing you sliped 8 times.
+*********************************************
+
+Do you have the energy to climb up another mountain. YES/NO? dff
+Do you have the energy to climb up another mountain. YES/NO? no

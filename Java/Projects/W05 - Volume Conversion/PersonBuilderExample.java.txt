@@ -1,0 +1,61 @@
+
+// Class representing a Person with a Builder
+public class Person {
+    private String name;    // Required
+    private int age;        // Optional
+    private String city;    // Optional
+
+    // Private constructor, so the object can only be created via the Builder
+    private Person(Builder builder) {
+        this.name = builder.name;
+        this.age = builder.age;
+        this.city = builder.city;
+    }
+
+    // Static inner Builder class
+    public static class Builder {
+        private String name;
+        private int age;
+        private String city;
+
+        // Constructor for Builder (only required fields)
+        public Builder(String name) {
+            this.name = name;
+        }
+
+        // Methods for optional fields
+        public Builder setAge(int age) {
+            this.age = age;
+            return this;
+        }
+
+        public Builder setCity(String city) {
+            this.city = city;
+            return this;
+        }
+
+        // The build method that returns the final Person object
+        public Person build() {
+            return new Person(this);
+        }
+    }
+
+    // Overriding toString() to print the Person details
+    @Override
+    public String toString() {
+        return "Person{name='" + name + "', age=" + age + ", city='" + city + "'}";
+    }
+}
+
+// Example usage of the Person Builder
+public class Main {
+    public static void main(String[] args) {
+        // Creating a Person object using the Builder
+        Person person = new Person.Builder("John Doe")
+                            .setAge(30)
+                            .setCity("New York")
+                            .build();
+
+        System.out.println(person);
+    }
+}

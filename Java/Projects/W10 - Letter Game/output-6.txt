@@ -1,0 +1,45 @@
+Hi I am your computer Brain. I want  to play a guessing game with you.
+I will think of a letter between 'A' and 'Z' or a number between a min and max  of your choice 
+and will allow you to guess until you get it.For each guess, I will tell you whether the
+right answer is higher or lower than your guess.
+
+Do you want to guess numbers or letters. Enter letter or number? letter
+I'm thinking of a letter between A and Z ...
+Guess a letter between A-Z:  dfsdfsdf
+Invalid input. Guess a letter between A-Z:  1232434
+Invalid input. Guess a letter between A-Z:  M
+lower
+Guess a letter between A-Z:  G
+Higher
+Guess a letter between A-Z:  a
+Invalid input. Guess a letter between A-Z:  I
+Higher
+Guess a letter between A-Z:  J
+Higher
+Guess a letter between A-Z:  L
+You got it!
+You got it right in 5 guesses
+
+Do you want to play again(YES/NO)? YES
+
+Do you want to guess numbers or letters. Enter letter or number? number
+Enter a min and max value so that I can pick a random number
+10 100
+I'm thinking of a number between 10 and 100 ...
+Enter a number between 10 and 100: 200
+Invalid number. Enter a number between 10 and 100: 500
+Invalid number. Enter a number between 10 and 100: 50
+Higher
+Enter a number between 10 and 100: 70
+lower
+Enter a number between 10 and 100: 60
+lower
+Enter a number between 10 and 100: 55
+lower
+Enter a number between 10 and 100: 53
+You got it!
+You got it right in 5 guesses
+
+Do you want to play again(YES/NO)? NO
+
+Good Bye

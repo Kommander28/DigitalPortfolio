@@ -1,0 +1,71 @@
+****************************************
+
+There are some math questions in this quiz.
+You get certain points if you answer it correctly
+lets take the quiz
+****************************************
+
+6 * 14 = 84
+Correct!
+9 % 7 = 2
+Correct!
+17 % 17 = 0
+Correct!
+12 / 2 = 6
+Correct!
+8 / 18 = 0
+Correct!
+9 + 10 = 19
+Correct!
+4 + 9 = 13
+Correct!
+4 + 18 = 22
+Correct!
+20 + 13 = 33
+Correct!
+8 * 18 = 144
+Correct!
+Here are the scores for each question: 
+[5, 7, 6, 1, 6, 1, 1, 2, 10, 5]
+Total points earned: 44
+
+
+Do you want to take the again!!
+Enter yes/no: yes
+****************************************
+
+There are some math questions in this quiz.
+You get certain points if you answer it correctly
+lets take the quiz
+****************************************
+
+6 % 15 = 9
+Incorrect
+1 % 11 = 1
+Correct!
+14 - 13 = 1
+Correct!
+17 * 14 = 238
+Correct!
+14 / 1 = 14
+Correct!
+17 % 15 = 2
+Correct!
+9 * 8 = 72
+Correct!
+12 * 17 = 234
+Incorrect
+4 * 3 = 12
+Correct!
+12 / 13 = 0
+Correct!
+Here are the scores for each question: 
+[0, 3, 5, 3, 6, 4, 10, 0, 3, 10]
+Total points earned: 44
+
+
+Do you want to take the again!!
+Enter yes/no: dssd
+Enter yes/no: sddf
+Enter yes/no: no
+

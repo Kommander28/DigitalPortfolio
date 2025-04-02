@@ -1,0 +1,79 @@
+How many times to you want to use the app: 70
+To decode a message enter D.
+To enccode a message enter E
+
+
+Enter your choice: E
+Enter a message to Encode it: Here is my password love my kids
+The encoded message is : WHMO:CQ:IZSP:HVSAWWET:CQ:WM:IVIL
+
+To decode a message enter D.
+To enccode a message enter E
+
+
+Enter your choice: D
+Enter a message to Decode it: WHMO:CQ:IZSP:HVSAWWET:CQ:WM:IVIL
+The decoded message is : HERE IS MY PASSWORD LOVE MY KIDS
+
+To decode a message enter D.
+To enccode a message enter E
+
+
+Enter your choice: D
+Enter a message to Decode it: What comes around goes around
+Invalid message
+The decoded message is : 
+
+To decode a message enter D.
+To enccode a message enter E
+
+
+Enter your choice: E
+Enter a message to Encode it: what comes around goes around
+The encoded message is : LVCWZI:AMWO:LVCWZI:AMUWK:BIPE
+
+To decode a message enter D.
+To enccode a message enter E
+
+
+Enter your choice: D
+Enter a message to Decode it: LVCWZI:AMWO:LVCWZI:AMUWK:BIPE
+The decoded message is : WHAT COMES AROUND GOES AROUND
+
+To decode a message enter D.
+To enccode a message enter E
+
+
+Enter your choice: E
+Enter a message to Encode it: I like the book called fall of two zero two four
+The encoded message is : XAUL:UCZ:UXKF:UCZ:LU:RRGL:JKRRGI:QUUH:KNZ:KQOR:O
+
+To decode a message enter D.
+To enccode a message enter E
+
+
+Enter your choice: D
+Enter a message to Decode it: XAUL:UCZ:UXKF:UCZ:LU:RRGL:JKRRGI:QUUH:KNZ:KQOR:O
+The decoded message is : I LIKE THE BOOK CALLED FALL OF TWO ZERO TWO FOUR
+
+To decode a message enter D.
+To enccode a message enter E
+
+
+Enter your choice: E
+Enter a message to Encode it: hello1234%
+Invalid message
+The encoded message is : 
+
+To decode a message enter D.
+To enccode a message enter E
+
+
+Enter your choice: E
+Enter a message to Encode it: 12345897
+Invalid message
+The encoded message is : 
+
+To decode a message enter D.
+To enccode a message enter E
+

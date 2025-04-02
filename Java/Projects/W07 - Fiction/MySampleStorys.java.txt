@@ -1,0 +1,45 @@
+import java.util.*;
+public class MySampleStorys
+{
+   public static void main(String[] args)
+   {
+      Scanner kb = new Scanner(System.in);
+      String myStory = story(kb);
+      System.out.println("\n ******************Here is your story ***************************\n");
+      System.out.println(myStory);
+      
+      System.out.println("\n ******************The story in the reverse order is ***************************\n");
+      String reverse = reverse(myStory);
+      System.out.println(reverse);
+     
+   }
+   public static String story(Scanner kb)
+   {
+      int age;
+      String name;
+      String address;
+      System.out.print("What is your name? ");
+      name = kb.next();
+      System.out.print("How old are you? ");
+      age = kb.nextInt();
+      kb.nextLine();//flush the buffer
+      System.out.print("What is your address? ");
+      address = kb.nextLine();
+      double price = Math.pow(age, 2);
+      char initial = name.charAt(0);
+      String myStory = "One day " + initial + " went to " + address + "\nto buy a book and the price of the book was " + price + ".\n" 
+                     + name +" left since the book was too expensive.";
+      return myStory;                  
+   }
+  /*This method displays the story all in capital letters*/
+   public static String reverse(String story)
+   {
+ 
+      String reverse = "";
+      for(int i = story.length() - 1; i >= 0; i--)
+      {
+         reverse = reverse + story.charAt(i);
+      }
+     return reverse;  
+   }
+}
